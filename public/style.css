@@ -12,6 +12,20 @@
   padding-bottom: 20px;
   box-shadow: 5px 5px 10px #000000;
 }
+
+.green {
+  font-size: 40px;
+  padding: auto;
+  height: 30;
+  background-color: #024902;
+}
+.blue {
+  font-size: 40px;
+  padding: auto;
+  text-align: center;
+  height: 30vh;
+  background-color: #022e6e;
+}
 /* .hedy {
   display: inline-block;
 } */
