@@ -7,10 +7,19 @@ import Formatname from "./component/Embeddingexpressioninjsx";
 import DisplayData from "./component/DisplayingData";
 import Condition from "./component/Condition";
 import Tick from "./component/Tick";
+import Comment from "./component/Comment";
+
+const comment = {
+  text: "I hope you enjoy learning React!",
+  author: {
+    name: "Hello Kitty",
+    avatarUrl: "http://placekitten.com/g/64/64",
+  },
+};
 function App() {
   return (
     <>
-      <Welcome />
+      <Welcome name="Aditi" />
       <Button />
       <AboutPage />
       <Formatname />
@@ -18,6 +27,7 @@ function App() {
       <Image />
       <DisplayData />
       <Condition />
+      <Comment photo={comment.author} text={comment.text} />
     </>
   );
 }
