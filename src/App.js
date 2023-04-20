@@ -6,6 +6,7 @@ import Image from "./component/Image";
 import Formatname from "./component/Embeddingexpressioninjsx";
 import DisplayData from "./component/DisplayingData";
 import Condition from "./component/Condition";
+import Tick from "./component/Tick";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Button />
       <AboutPage />
       <Formatname />
+      <Tick />
       <Image />
       <DisplayData />
       <Condition />
