@@ -30,3 +30,13 @@
 /* .hedy {
   display: inline-block;
 } */
+.top {
+  width: 20%;
+  border: 1px solid #eeeeee;
+  border-radius: 25px;
+}
+
+.anime-image {
+  height: 60px;
+  width: 60px;
+}
