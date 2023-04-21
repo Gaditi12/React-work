@@ -40,3 +40,11 @@
   height: 60px;
   width: 60px;
 }
+.hook {
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #d1c3f5;
+  height: 30vh;
+  width: 40%;
+}

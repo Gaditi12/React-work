@@ -10,6 +10,8 @@ import Tick from "./component/Tick";
 import Comment from "./component/Comment";
 import ContactInfo from "./component/ContactInfo";
 import contacts from "./component/Contact";
+import MyButton from "./component/Events";
+import Hooks from "./component/Hooks";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -34,6 +36,7 @@ function App() {
     <>
       <Welcome name="Aditi" />
       <Button />
+      <MyButton />
       <AboutPage />
       <Formatname />
       <Tick />
@@ -45,6 +48,7 @@ function App() {
         <h2>One-piece Anime Character</h2>
         {contacts.map(createConatct)}
       </div>
+      <Hooks />
     </>
   );
 }
