@@ -12,6 +12,7 @@ import ContactInfo from "./component/ContactInfo";
 import contacts from "./component/Contact";
 import MyButton from "./component/Events";
 import Hooks from "./component/Hooks";
+import Forms from "./component/Forms";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -49,6 +50,7 @@ function App() {
         {contacts.map(createConatct)}
       </div>
       <Hooks />
+      <Forms />
     </>
   );
 }

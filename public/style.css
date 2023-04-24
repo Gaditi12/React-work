@@ -48,3 +48,22 @@
   height: 30vh;
   width: 40%;
 }
+.form {
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 2px;
+  text-align: center;
+  background-color: #d1cfcf;
+  height: 60vh;
+  width: 50%;
+}
+
+.info {
+  margin: auto;
+  padding-top: 2px;
+  padding-left: 5px;
+  position: relative;
+  background-color: #eeeeee;
+  text-align: justify;
+  width: 50%;
+}
