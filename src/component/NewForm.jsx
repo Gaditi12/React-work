@@ -90,7 +90,7 @@ function NewForm() {
                   {element.email}
                 </p>
                 <p>
-                  <strong>Name : </strong>
+                  <strong>Feedback : </strong>
                   {element.feedback}
                 </p>
                 <p>
