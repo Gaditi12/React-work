@@ -14,6 +14,7 @@ import MyButton from "./component/Events";
 import Hooks from "./component/Hooks";
 import Counter from "./component/Counter";
 import SecCounter from "./component/SecCounter";
+import ConvertTemp from "./component/ConvertTemp";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -59,6 +60,7 @@ function App() {
         <h2>Counters that update together</h2>
         <SecCounter />
       </div>
+      <ConvertTemp />
     </>
   );
 }
