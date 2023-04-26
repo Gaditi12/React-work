@@ -12,9 +12,6 @@ import ContactInfo from "./component/ContactInfo";
 import contacts from "./component/Contact";
 import MyButton from "./component/Events";
 import Hooks from "./component/Hooks";
-import Counter from "./component/Counter";
-import SecCounter from "./component/SecCounter";
-import ConvertTemp from "./component/ConvertTemp";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -52,15 +49,6 @@ function App() {
         {contacts.map(createConatct)}
       </div>
       <Hooks />
-      <div className="btn">
-        <h2>Counters that update separately</h2>
-        <Counter />
-        <br />
-        <Counter />
-        <h2>Counters that update together</h2>
-        <SecCounter />
-      </div>
-      <ConvertTemp />
     </>
   );
 }
