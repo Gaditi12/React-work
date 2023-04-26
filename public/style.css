@@ -81,3 +81,27 @@
   width: 40%;
   background-color: #8c8686;
 }
+.divBox {
+  height: 40vh;
+  border: 1px solid #000;
+}
+
+.firstDiv {
+  height: 30vh;
+
+  background-color: #ef9494;
+}
+.secondDiv {
+  height: 10vh;
+  background-color: #7dd7f7;
+}
+.fancyBorder {
+  margin-top: 100px;
+
+  padding: 10px 10px;
+  border: 10px solid;
+}
+
+.fancyBorder-grey {
+  border-color: #025137;
+}
