@@ -63,4 +63,21 @@
   height: 30vh;
   width: 50%;
   text-align: center;
+
+.newForm {
+  margin: auto;
+  margin-top: 5px;
+  padding-top: 5px;
+  height: 60vh;
+  width: 50%;
+  text-align: center;
+  background-color: #d1cfcf;
+}
+
+.anotherForm {
+  margin: auto;
+  padding-left: 5px;
+  height: 30vh;
+  width: 40%;
+  background-color: #8c8686;
 }
