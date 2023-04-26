@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import Welcome from "./component/Welcome";
 import Button from "./component/Button";
 import AboutPage from "./component/AboutPage";
@@ -16,6 +17,8 @@ import Containment from "./component/Containment";
 import FirstDiv from "./component/FirstDiv";
 import SecondDiv from "./component/SecondDiv";
 import SignUpDialog from "./component/SignUpDialog";
+import Person from "./component/Person";
+import people from "./component/People";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -35,6 +38,17 @@ function createConatct(contact) {
   );
 }
 
+function personDetail(detail) {
+  return (
+    <Person
+      id={detail.id}
+      key={detail.id}
+      imgUrl={detail.imgUrl}
+      name={detail.name}
+      profession={detail.profession}
+    />
+  );
+}
 function App() {
   return (
     <>
@@ -55,6 +69,12 @@ function App() {
       <Hooks />
       <Containment left={<FirstDiv />} right={<SecondDiv />} />
       <SignUpDialog />
+      <BrowserRouter></BrowserRouter>
+
+      <div className="another">
+        <h2>SCIENTIST</h2>
+        {people.map(personDetail)}
+      </div>
     </>
   );
 }
