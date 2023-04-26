@@ -39,6 +39,29 @@
 .anime-image {
   height: 60px;
   width: 60px;
+  border-radius: 50%;
+  display: flex;
+}
+.name {
+  display: inline;
+  padding-left: 4px;
+}
+.card {
+  text-align: center;
+  height: 20vh;
+  width: 30%;
+  background-color: #9febdf;
+  border: 2px solid #000;
+  display: inline-block;
+}
+.another {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #656565;
+  border: 1px solid #000000;
+}
+.another h2 {
+  text-align: center;
 }
 .hook {
   margin: auto;
@@ -80,4 +103,28 @@
   height: 30vh;
   width: 40%;
   background-color: #8c8686;
+}
+.divBox {
+  height: 40vh;
+  border: 1px solid #000;
+}
+
+.firstDiv {
+  height: 30vh;
+
+  background-color: #ef9494;
+}
+.secondDiv {
+  height: 10vh;
+  background-color: #7dd7f7;
+}
+.fancyBorder {
+  margin-top: 100px;
+
+  padding: 10px 10px;
+  border: 10px solid;
+}
+
+.fancyBorder-grey {
+  border-color: #025137;
 }

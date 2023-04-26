@@ -1,7 +1,7 @@
 import React from "react";
 function ContactInfo(props) {
   return (
-    <div className="card">
+    <div className="">
       <div className="top">
         {props.id}
 
