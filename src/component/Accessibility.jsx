@@ -1,7 +1,8 @@
 import React from "react";
 function Accessibility() {
   function clickFunc() {
-    alert("button is clicked");
+    // alert("button is clicked");
+    document.getElementById("mdn").focus();
   }
   return (
     <>
@@ -22,7 +23,9 @@ function Accessibility() {
       </table>
       <br />
       <br />
-
+      <a id="mdn" href="https://developer.mozilla.org">
+        Visit mdn
+      </a>
       <button onClick={clickFunc}>Click Me</button>
     </>
   );
