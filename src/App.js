@@ -19,6 +19,7 @@ import SecondDiv from "./component/SecondDiv";
 import SignUpDialog from "./component/SignUpDialog";
 import Person from "./component/Person";
 import people from "./component/People";
+import Accessibility from "./component/Accessibility";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -75,6 +76,7 @@ function App() {
         <h2>SCIENTIST</h2>
         {people.map(personDetail)}
       </div>
+      <Accessibility />
     </>
   );
 }
