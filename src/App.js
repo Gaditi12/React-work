@@ -56,7 +56,7 @@ function App() {
       <Welcome name="Aditi" />
       <Button />
       <MyButton />
-      <AboutPage />
+
       <Formatname />
       <Tick />
       <Image />
@@ -70,13 +70,16 @@ function App() {
       <Hooks />
       <Containment left={<FirstDiv />} right={<SecondDiv />} />
       <SignUpDialog />
-      <BrowserRouter></BrowserRouter>
 
       <div className="another">
         <h2>SCIENTIST</h2>
         {people.map(personDetail)}
       </div>
       <Accessibility />
+
+      <BrowserRouter>
+        <AboutPage />
+      </BrowserRouter>
     </>
   );
 }
