@@ -20,6 +20,7 @@ import SignUpDialog from "./component/SignUpDialog";
 import Person from "./component/Person";
 import people from "./component/People";
 import Accessibility from "./component/Accessibility";
+import Example from "./component/UseEffect";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -80,6 +81,7 @@ function App() {
       <BrowserRouter>
         <AboutPage />
       </BrowserRouter>
+      <Example />
     </>
   );
 }
