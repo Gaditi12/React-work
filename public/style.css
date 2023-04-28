@@ -141,3 +141,15 @@ a:active,
 a:hover {
   color: #fe7171;
 }
+
+.hook {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #024949;
+  height: 30vh;
+  text-align: center;
+  font-size: 20px;
+}
+.hook p {
+  color: #f9f92d;
+}
