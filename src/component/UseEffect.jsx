@@ -12,7 +12,7 @@ function Example() {
     document.title = `You clicked ${count} times`;
     console.log("hello useEffect"); // second priority
     //alert("you clicked me");
-  });
+  }, [count]);
   console.log("Hello outside"); // first priority
   return (
     <>
@@ -26,6 +26,7 @@ function Example() {
         <h1>Using useEffect hook</h1>
         {/* <p>You clicked {count} times</p> */}
         <button onClick={handleClick}>Clicked me {count} times</button>
+        <br />
         <br />
         <button onClick={handlesecClick}>Clicked me {num} times</button>
       </div>
