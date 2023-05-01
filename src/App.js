@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext } from "react";
 import { BrowserRouter } from "react-router-dom";
 import Welcome from "./component/Welcome";
 import Button from "./component/Button";
@@ -21,6 +21,11 @@ import Person from "./component/Person";
 import people from "./component/People";
 import Accessibility from "./component/Accessibility";
 import Example from "./component/UseEffect";
+import FetchData from "./component/UseEffectApi";
+import ComA from "./component/ComA";
+
+const FirstName = createContext();
+const LastName = createContext();
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -82,8 +87,15 @@ function App() {
         <AboutPage />
       </BrowserRouter>
       <Example />
+      <FetchData />
+      <FirstName.Provider value={"Aditi"}>
+        <LastName.Provider value={"Gupta"}>
+          <ComA />
+        </LastName.Provider>
+      </FirstName.Provider>
     </>
   );
 }
 
 export default App;
+export { FirstName, LastName };
