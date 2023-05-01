@@ -21,6 +21,7 @@ import Person from "./component/Person";
 import people from "./component/People";
 import Accessibility from "./component/Accessibility";
 import Example from "./component/UseEffect";
+import FetchData from "./component/UseEffectApi";
 const comment = {
   text: "I hope you enjoy learning React!",
   author: {
@@ -82,6 +83,7 @@ function App() {
         <AboutPage />
       </BrowserRouter>
       <Example />
+      <FetchData />
     </>
   );
 }
