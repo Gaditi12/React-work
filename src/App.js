@@ -68,6 +68,7 @@ function App() {
       <Image />
       <DisplayData />
       <Condition />
+
       <Comment photo={comment.author} text={comment.text} />
       <div>
         <h2>One-piece Anime Character</h2>
