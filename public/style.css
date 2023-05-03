@@ -160,3 +160,15 @@ a:hover {
   height: 30vh;
   width: 40%;
 }
+.memo {
+  margin: auto;
+  text-align: center;
+  background-color: #0f3266;
+  height: 30vh;
+  width: 40%;
+}
+.span {
+  margin-left: 5px;
+  padding: 2px;
+  background-color: #ffffff;
+}

@@ -24,6 +24,7 @@ import Example from "./component/UseEffect";
 import FetchData from "./component/UseEffectApi";
 import ComA from "./component/ComA";
 import StopWatch from "./component/StopWatch";
+import Memo from "./component/UseMemo";
 const FirstName = createContext();
 const LastName = createContext();
 const comment = {
@@ -95,6 +96,7 @@ function App() {
         </LastName.Provider>
       </FirstName.Provider>
       <StopWatch />
+      <Memo />
     </>
   );
 }
