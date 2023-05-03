@@ -153,3 +153,10 @@ a:hover {
 .hook p {
   color: #f9f92d;
 }
+.stopWatch {
+  margin: auto;
+  text-align: center;
+  background-color: #c87de8;
+  height: 30vh;
+  width: 40%;
+}

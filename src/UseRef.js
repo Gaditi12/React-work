@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-
+import Counter from "./component/Ref";
 export default function UseRef() {
   //const refEle = useRef("");
   //const [name, setName] = useState("Aditi");
@@ -37,6 +37,7 @@ export default function UseRef() {
         </form>
         <p>{show ? `Your name is ${ref.current.value}` : ""}</p>
       </div>
+      <Counter />
     </>
   );
 }

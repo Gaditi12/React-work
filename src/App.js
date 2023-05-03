@@ -23,7 +23,7 @@ import Accessibility from "./component/Accessibility";
 import Example from "./component/UseEffect";
 import FetchData from "./component/UseEffectApi";
 import ComA from "./component/ComA";
-
+import StopWatch from "./component/StopWatch";
 const FirstName = createContext();
 const LastName = createContext();
 const comment = {
@@ -94,6 +94,7 @@ function App() {
           <ComA />
         </LastName.Provider>
       </FirstName.Provider>
+      <StopWatch />
     </>
   );
 }
