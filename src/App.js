@@ -25,6 +25,7 @@ import FetchData from "./component/UseEffectApi";
 import ComA from "./component/ComA";
 import StopWatch from "./component/StopWatch";
 import Memo from "./component/UseMemo";
+import AgeChecker from "./component/Agechecker";
 const FirstName = createContext();
 const LastName = createContext();
 const comment = {
@@ -97,6 +98,7 @@ function App() {
       </FirstName.Provider>
       <StopWatch />
       <Memo />
+      <AgeChecker />
     </>
   );
 }
