@@ -7,6 +7,7 @@ export default function AgeChecker() {
     switch (action.type) {
       case "Increment":
         state.age = state.age + action.payload.age;
+
         if (state.age < 18) {
           return {
             age: state.age,
@@ -21,7 +22,12 @@ export default function AgeChecker() {
 
       case "Decrement":
         state.age = state.age - action.payload.age;
-        if (state.age >= 18) {
+        if (state.age < 1) {
+          return {
+            age: 0,
+            result: "valid age",
+          };
+        } else if (state.age >= 18) {
           return {
             age: state.age,
             result: "Adult",
