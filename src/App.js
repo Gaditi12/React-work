@@ -98,7 +98,10 @@ function App() {
       </FirstName.Provider>
       <StopWatch />
       <Memo />
-      <AgeChecker />
+      <div>
+        {" "}
+        <AgeChecker />
+      </div>
     </>
   );
 }
