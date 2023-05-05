@@ -14,6 +14,5 @@ root.render(
     <Demo />
     <UseRef />
     <Counter />
-    <UseCallback />
   </>
 );

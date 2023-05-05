@@ -1,8 +1,6 @@
 import React, { createContext } from "react";
-import { BrowserRouter } from "react-router-dom";
 import Welcome from "./component/Welcome";
 import Button from "./component/Button";
-import AboutPage from "./component/AboutPage";
 import Image from "./component/Image";
 import Formatname from "./component/Embeddingexpressioninjsx";
 import DisplayData from "./component/DisplayingData";
@@ -16,16 +14,17 @@ import Hooks from "./component/Hooks";
 import Containment from "./component/Containment";
 import FirstDiv from "./component/FirstDiv";
 import SecondDiv from "./component/SecondDiv";
-import SignUpDialog from "./component/SignUpDialog";
+//import SignUpDialog from "./component/SignUpDialog";
 import Person from "./component/Person";
 import people from "./component/People";
 import Accessibility from "./component/Accessibility";
 import Example from "./component/UseEffect";
 import FetchData from "./component/UseEffectApi";
 import ComA from "./component/ComA";
-import StopWatch from "./component/StopWatch";
+import Routers from "./Router";
+
 import Memo from "./component/UseMemo";
-import AgeChecker from "./component/Agechecker";
+
 const FirstName = createContext();
 const LastName = createContext();
 const comment = {
@@ -61,6 +60,7 @@ function personDetail(detail) {
 function App() {
   return (
     <>
+      <Routers />
       <Welcome name="Aditi" />
       <Button />
       <MyButton />
@@ -78,7 +78,7 @@ function App() {
       </div>
       <Hooks />
       <Containment left={<FirstDiv />} right={<SecondDiv />} />
-      <SignUpDialog />
+      {/* <SignUpDialog /> */}
 
       <div className="another">
         <h2>SCIENTIST</h2>
@@ -86,9 +86,9 @@ function App() {
       </div>
       <Accessibility />
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <AboutPage />
-      </BrowserRouter>
+      </BrowserRouter> */}
       <Example />
       <FetchData />
       <FirstName.Provider value={"Aditi"}>
@@ -96,12 +96,12 @@ function App() {
           <ComA />
         </LastName.Provider>
       </FirstName.Provider>
-      <StopWatch />
+      {/* <StopWatch /> */}
       <Memo />
-      <div>
+      {/* <div>
         {" "}
         <AgeChecker />
-      </div>
+      </div> */}
     </>
   );
 }

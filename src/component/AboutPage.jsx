@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import About123 from "./About123";
 import ContactUs from "./ContactUs";
 function AboutPage() {
@@ -13,6 +13,10 @@ function AboutPage() {
       </p>
       <Routes>
         <Route path="/" Component={About123} />
+        {/* <Route>
+          {" "}
+          <Link to="/">About123</Link>
+        </Route> */}
         <Route path="/contact" Component={ContactUs} />
       </Routes>
     </>
