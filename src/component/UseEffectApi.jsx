@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-function FetchData(props) {
+function UseEffectApi() {
   const [data, setData] = useState([]);
   const getData = async () => {
     const response = await fetch("https://jsonplaceholder.typicode.com/photos");
@@ -40,4 +40,4 @@ function FetchData(props) {
     </>
   );
 }
-export default FetchData;
+export default UseEffectApi;

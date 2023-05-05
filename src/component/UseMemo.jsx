@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-export default function Memo() {
+export default function UseMemo() {
   const [add, setAdd] = useState(0);
   const [minus, setMinus] = useState(100);
   const multiplication = useMemo(

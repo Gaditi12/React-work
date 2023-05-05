@@ -1,6 +1,6 @@
 import React from "react";
 
-function Formatname() {
+function Embeddingexpressioninjsx() {
   const user = {
     firstName: "Aditi",
     lastName: "Gupta",
@@ -18,4 +18,4 @@ function Formatname() {
   );
 }
 
-export default Formatname;
+export default Embeddingexpressioninjsx;

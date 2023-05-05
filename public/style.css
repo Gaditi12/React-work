@@ -1,7 +1,7 @@
 body {
   background-image: linear-gradient(
     to right,
-    rgba(167, 241, 144, 0.4),
+    rgba(131, 239, 98, 0.4),
     rgba(125, 125, 239, 0.356)
   );
 }
@@ -154,6 +154,7 @@ a:hover {
   color: #f9f92d;
 }
 .stopWatch {
+  margin-top: 10px;
   margin: auto;
   text-align: center;
   background-color: #c87de8;
@@ -161,6 +162,7 @@ a:hover {
   width: 40%;
 }
 .memo {
+  margin-top: 10px;
   margin: auto;
   text-align: center;
   background-color: #0f3266;
@@ -171,4 +173,16 @@ a:hover {
   margin-left: 5px;
   padding: 2px;
   background-color: #ffffff;
+}
+.todos {
+  margin: auto;
+  font-size: 30px;
+  width: 50%;
+  height: 30vh;
+  text-align: center;
+  background-color: #024931;
+}
+.todo-btn {
+  padding: 5px;
+  margin-left: 4px;
 }

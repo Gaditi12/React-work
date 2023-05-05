@@ -1,7 +1,7 @@
 import React, { useReducer } from "react";
 
 export default function AgeChecker() {
-  const initialState = { age: 0 };
+  const initialState = { age: 1, result: "child" };
   function reducer(state, action) {
     console.log(action.payload);
     switch (action.type) {
@@ -46,7 +46,7 @@ export default function AgeChecker() {
   const [state, dispatch] = useReducer(reducer, initialState);
   return (
     <>
-      <div>
+      <div className="stopwatch">
         <div>Your age : {state.age}</div>
         <div>Result : {state.result}</div>
         <button

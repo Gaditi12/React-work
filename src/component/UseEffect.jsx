@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-function Example() {
+function UseEffect() {
   const [count, setCount] = useState(0);
   const [num, setNum] = useState(0);
   const [widthCount, setWidthCount] = useState(window.screen.width);
@@ -43,4 +43,4 @@ function Example() {
     </>
   );
 }
-export default Example;
+export default UseEffect;
