@@ -1,6 +1,6 @@
 import React from "react";
 
-function DisplayData() {
+function DisplayingData() {
   const userData = {
     name: "Hedy Lamarr",
     imageUrl: "https://i.imgur.com/SUSzE6J.jpeg",
@@ -21,4 +21,4 @@ function DisplayData() {
     </>
   );
 }
-export default DisplayData;
+export default DisplayingData;
